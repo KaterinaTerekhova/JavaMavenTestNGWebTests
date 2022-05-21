@@ -12,7 +12,7 @@ public class ParagraphTest {
 
         String chromeDriver = "webdriver.chrome.driver";
         String driverPath = "/C:/Users/Королевна/chromedriver_win32/chromedriver.exe";
-        String url = "http://www.99-bottles-of-beer.net/abc.html";
+        String url = "http://www.99-bottles-of-beer.net";
 
         String expectedResult = "0-9";
 

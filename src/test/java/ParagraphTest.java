@@ -32,11 +32,8 @@ public class ParagraphTest {
         String actualResult = buttonName.getText();
         Assert.assertEquals(actualResult,expectedResult);
 
-//        Thread.sleep(2000);
+        Thread.sleep(2000);
            driver.quit();
-
-
-
     }
 
 }

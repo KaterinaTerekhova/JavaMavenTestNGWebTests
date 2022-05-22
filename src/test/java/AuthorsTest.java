@@ -30,7 +30,7 @@ public class AuthorsTest {
         WebElement author1 = driver.
                 findElement(By.xpath("//body/div[@id='wrap']/div[@id='main']/h3[1]"));
 
-        String actualResult1 =author1.getText();
+        String actualResult1 = author1.getText();
         Assert.assertEquals(actualResult1,expectedResult1);
 
         WebElement author2 = driver.

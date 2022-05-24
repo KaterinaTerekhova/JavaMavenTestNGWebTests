@@ -6,6 +6,16 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TextTest {
+    /**
+     * Подтвердите, что на странице по ссылке http://www.99-bottles-of-beer.net/submitnewlanguage.html
+     * в первом пункте списка пользователь видит текст
+     *
+     * IMPORTANT: Take your time! The more carefully you fill out this form
+     * (especially the language name and description), the easier it will be for us and the faster
+     * your language will show up on this page. We don't have the time to mess around with fixing your
+     * descriptions etc.
+     * Thanks for your understanding.
+     */
 
     @Test
     public void testSubmiteLanguage() {

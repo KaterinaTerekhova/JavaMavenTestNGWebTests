@@ -6,6 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LastButtonMenuTest {
+    /**
+     * Подтвердите, что на странице по базовой ссылке последний пункт меню называется Submit new Language
+     *
+     */
 
     @Test
     public void testLastButtonMenu() throws InterruptedException {

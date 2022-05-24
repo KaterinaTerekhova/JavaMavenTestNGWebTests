@@ -6,6 +6,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class AuthorsTest {
+    /**
+     * Подтвердите, что имена создателей сайта:
+     * Oliver Schade
+     * Gregor Scheithauer
+     * Stefan Scheler
+     */
 
     @Test
     public void testAuthors() {

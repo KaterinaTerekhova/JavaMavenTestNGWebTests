@@ -6,6 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SubmiteLanguageTest {
+    /**
+     * Подтвердите, что если на странице по ссылке http://www.99-bottles-of-beer.net/submitnewlanguage.html ,  пользователь нажмет кнопку Submit Language,  не заполнив информацию в обязательных полях, будет показана ошибка
+     *
+     * Error: Precondition failed - Incomplete Input.
+     */
 
     @Test
     public void testSubmiteLanguage(){

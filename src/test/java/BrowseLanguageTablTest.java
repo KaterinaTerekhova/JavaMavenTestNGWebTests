@@ -6,6 +6,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class BrowseLanguageTablTest {
+    /**
+     *  Подтвердите, что нажав на пункт меню Browse Languages, пользователь увидит таблицу
+     *  со следующими названиями для первого и второго столбцов:
+     * Language
+     * Author
+     */
 
     @Test
     public void testBrowseLanguageTabl() {

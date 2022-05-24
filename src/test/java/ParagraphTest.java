@@ -6,6 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class ParagraphTest {
+    /**
+     * Подтвердите, что на странице по ссылке http://www.99-bottles-of-beer.net/abc.html ,
+     * первый пункт подменю называется 0-9
+     */
 
     @Test
     public void testParagraph() throws InterruptedException {

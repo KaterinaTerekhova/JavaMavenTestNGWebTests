@@ -6,6 +6,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class HeadTest {
+    //Подтвердите, что на странице по базовой ссылке в правом верхнем углу
+    // пользователь видит заголовок 99 Bottles of Beer
 
     @Test
     public void testHeadTitle() throws InterruptedException {
